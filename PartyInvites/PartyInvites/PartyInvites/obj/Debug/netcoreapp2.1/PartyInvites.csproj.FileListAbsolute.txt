@@ -26,3 +26,4 @@ C:\Users\wrolr\OneDrive\Desktop\ASP.NET\PartyInvites\PartyInvites\PartyInvites\o
 C:\Users\wrolr\OneDrive\Desktop\ASP.NET\PartyInvites\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\wrolr\OneDrive\Desktop\ASP.NET\PartyInvites\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\Thanks.cshtml.g.cs
 C:\Users\wrolr\OneDrive\Desktop\ASP.NET\PartyInvites\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\ListResponses.cshtml.g.cs
+C:\Users\wrolr\OneDrive\Desktop\ASP.NET\PartyInvites\PartyInvites\PartyInvites\bin\Debug\netcoreapp2.1\libman.json

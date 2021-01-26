@@ -7,17 +7,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Responses</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-    <h2>Here is a list of people attending the party </h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Phone</th>
-            </tr>
-        </thead>
+    <div class="panel-body">
+        <h2>Here is a list of people attending the party </h2>
+        <table class="table table-sm table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
             <tbody>
                 @foreach (PartyInvites.Models.Guest g in Model)
                 {
@@ -28,6 +30,7 @@
                     </tr>
                 }
             </tbody>
-    </table>
+        </table>
+    </div>
 </body>
 </html>

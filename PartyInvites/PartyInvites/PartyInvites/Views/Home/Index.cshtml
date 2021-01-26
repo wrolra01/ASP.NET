@@ -1,18 +1,13 @@
 ﻿<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Index</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
-        Hello, Home Controller's Index View.
-    </div>
-    <div>
-        @ViewBag.Greeting
-        <p>
-            TODO: sell it better to your friends...
-        </p>
-
-        <a asp-action="RsvpForm">RSVP now</a>
+    <div class="text-center">
+        <h3>We are going to have a party!</h3>
+        <h4>Congrats!  You are invited!</h4>
+        <a class="btn btn-primary" asp-action="RsvpForm">RSVP now</a>
     </div>
 </body>
 </html>
