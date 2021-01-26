@@ -1,0 +1,35 @@
+﻿@model PartyInvites.Models.Guest
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>RSVP Form</title>
+</head>
+<body>
+    <form asp-action="RsvpForm" method="post">
+        <p>
+            <label asp-for="Name">Your name:</label>
+            <input asp-for="Name" />
+        </p>
+
+        <p>
+            <label asp-for="Email">Your email:</label>
+            <input asp-for="Email" />
+        </p>
+
+        <p>
+            <label asp-for="Phone">Your phone:</label>
+            <input asp-for="Phone" />
+        </p>
+
+        <p>
+            <label>Will you attend?</label>
+            <select asp-for="WillAttend">
+                <option value="">Choose an option...</option>
+                <option value="true">Yes, I'll be there</option>
+                <option value="false">No, I can't be there</option>
+            </select>
+        </p>
+        <button type="submit">Submit RSVP</button>
+    </form>
+</body>
+</html>
